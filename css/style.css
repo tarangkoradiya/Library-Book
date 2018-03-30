@@ -1,0 +1,197 @@
+/* =====--- Serch box Frontend --=====*/
+.book-wrapper {
+	
+	margin: 0 auto;
+	display: table;
+}
+.book_search {
+    margin-right: 20px;
+}
+.search_results {
+    padding: 2%;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+.book_search_box{
+	border: 1px solid;
+    border-radius: 2px;
+    padding: 2% 0;
+}
+.book_search_box-title h3 {
+	text-align: center;
+}
+.book_search_box-button .button {
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    max-width: 150px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.book_search_box-button .button:hover {
+	background-color: #000;
+	color: #fff;
+    transition:background-color 0.5s ease;
+}
+.book_search_box label {
+    white-space: nowrap;
+    font-weight: 600;
+}
+.book_search_box select,.book_search_box  input[type="text"] {
+    width: 100%;
+}
+.book_search_box .grid_col {
+    vertical-align: middle;
+    padding-bottom: 2%;
+}
+.book_search_box p {
+    white-space: nowrap;
+    margin: 0;
+}    
+.book_search_box-title h3 {
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.book_search_box-button {
+    margin-top: 5%;
+}
+.search_results-data a {
+    text-decoration: none;
+    box-shadow: none !important;
+    text-transform: capitalize;
+}
+
+.search_results-data {
+    border-bottom: 1px solid;
+    margin-bottom: 2%;
+}
+.book_paginate {
+    text-align: center;
+}
+.book_paginate .next,.book_paginate .prev {
+    padding: 10px !important;
+    font-size: 18px !important;
+    background: transparent !important;
+    border: 1px solid !important;
+    box-shadow: none;
+}
+.book_paginate .next:hover, .book_paginate .prev:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: background-color 0.5s ease !important;
+    box-shadow: none;
+}
+.search_results-data a:hover {
+    color: #716e6e !important;
+}
+.search_results h4 {
+    font-weight: 600;
+}
+.book_search_box .grid_col {
+    padding: 2%;
+}
+/* =====--- End Serch box Frontend --=====*/
+
+/*----======== Price Range =====---*/
+ .ui-slider{
+    position:relative;
+    text-align:left;
+}
+ .ui-slider .ui-slider-handle{
+    position:absolute;
+    z-index:2;
+    width: .8em;
+    height: .8em;
+    cursor:default;
+    -ms-touch-action:none;
+    touch-action:none;
+}
+ .ui-slider .ui-slider-range{
+    position:absolute;
+    z-index:1;
+    font-size:.7em;
+    display:block;
+    border:0;
+    background-position:0 0;
+}
+ .ui-slider-horizontal{
+    height:.3em;
+}
+ .ui-slider-horizontal .ui-slider-handle{
+    top:-.3em;
+    margin-left:-.6em;
+}
+ .ui-slider-horizontal .ui-slider-range{
+    top:0;
+    height:100%;
+}
+ .ui-widget{
+    font-family:Gill Sans,Arial,sans-serif;
+    font-size:1.2em;
+}
+ .ui-widget-content{
+    border:1px solid #aaaaaa;
+    background:#ffffff;
+    color:#2c4359;
+}
+ .ui-widget-header{
+    border:1px solid #2c4359;
+    background:#35414f; 
+    color:#e1e463;
+    font-weight:bold;
+}
+.ui-widget-content .ui-state-default:nth-child(2){
+    border:1px solid #d6ee10;
+    background: #d6ee10; 
+    font-weight:bold;
+    color:#d6ee10;
+}
+.ui-widget-content .ui-state-default:nth-child(3) {
+    border:1px solid #0f35ec;
+    background: #0f35ec; 
+    font-weight:bold;
+    color:#0f35ec;
+}
+ .ui-state-default {
+    border-radius: 50%;
+}
+#price_range {
+    margin: 0 2%;
+}
+
+/*----======== End Price Range =====---*/
+
+/*----======== Star Rating =====---*/
+.star-rating .star-full:before {
+    content: "\f155";
+}
+
+.star-rating .star-half:before {
+    content: "\f459";
+}
+
+.star-rating .star-empty:before {
+    content: "\f154";
+}
+
+.star-rating .star {
+    color: #0074A2;
+    display: inline-block;
+    font-family: dashicons;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: 20px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: inherit;
+    vertical-align: top;
+    width: 20px;
+}
+/*----======== End Star Rating =====---*/
