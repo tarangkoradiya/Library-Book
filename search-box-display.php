@@ -78,7 +78,7 @@ function post_search_box() {
             </div>
             <div class="grid_col grid_col--3-of-4">
                 <div id="price"></div>
-                    <input type="text" name="book-price-min" id="book_price_min" value="">
+                    <input type="hidden" name="book-price-min" id="book_price_min" value="">
                     <input type="hidden" name="book-price-max" id="book_price_max" value="">
                   
                     <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
